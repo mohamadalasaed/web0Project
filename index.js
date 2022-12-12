@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/data')
+fetch('https://api-service-7fpg.onrender.com/data')
         .then(response => response.json())
         .then(json => {
             json.forEach(student => {  
