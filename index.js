@@ -3,7 +3,7 @@ fetch('https://api-service-7fpg.onrender.com/data')
         .then(json => {
             json.forEach(student => {  
                 var content = `
-                    <h3 class="text-center">Name: ${student.name}</h3>
+                    <h4>Name:</h4>${student.name}
                     <p>Age: ${student.age}</p>`;
 
                 var div = document.createElement('div');
