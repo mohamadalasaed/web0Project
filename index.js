@@ -8,7 +8,7 @@ fetch('https://api-service-7fpg.onrender.com/data')
 
                 var div = document.createElement('div');
                 div.innerHTML = content;
-                div.className = 'col-sm-6 col-md-3';
+                //div.className = 'col-sm-6 col-md-3';
                 document.getElementById('r').appendChild(div);
             });
 });
